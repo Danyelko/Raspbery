@@ -82,10 +82,6 @@ def zaslanie_emailu(typ = "pohyb", teplota = None, obrazok_cesta = None):
             return
         
         
-    else:
-        print("Email sa neposiela – čaká na vypršanie časového limitu.")
-
-
 def ziskaj_teplotu():
     """Číta teplotu zo snímača DS18B20"""
     try:
